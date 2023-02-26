@@ -24,10 +24,6 @@ public class RequestManager {
             .addConverterFactory(GsonConverterFactory.create())
             .build();
 
-//    public void getNewsHeadlines(OnFetchDataListener listener, String category) {
-//
-//    }
-
     public RequestManager(Context context) {
         this.context = context;
     }

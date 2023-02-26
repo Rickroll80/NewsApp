@@ -2,4 +2,10 @@
     <string name="app_name">NewsApp</string>
     <string name="api_key">3d07a0ff5659456e9157edb6d469904d</string>
     <string name="news_image">News image</string>
+    <string name="entertainment">entertainment</string>
+    <string name="general">general</string>
+    <string name="health">health</string>
+    <string name="science">science</string>
+    <string name="sports">sports</string>
+    <string name="technology">technology</string>
 </resources>
