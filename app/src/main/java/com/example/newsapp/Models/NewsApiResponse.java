@@ -1,9 +1,13 @@
 package com.example.newsapp.Models;
 
+import java.io.Serializable;
 import java.util.List;
 
-// Class that handles status, totalResults, and articles array
-public class NewsApiResponse {
+/**
+ * Serializable class that handles status, totalResults, and articles array
+ * public class NewsApiResponse {
+ */
+public class NewsApiResponse implements Serializable {
     String status;
     int totalResults;
     List<NewsHeadlines> articles;

@@ -1,9 +1,11 @@
 package com.example.newsapp.Models;
 
+import java.io.Serializable;
+
 /**
- * Class handles each article (set of results) in the article array
+ * Serializable class that handles each article (set of results) in the article array
  */
-public class NewsHeadlines {
+public class NewsHeadlines implements Serializable {
 
     /*
             "source": {
