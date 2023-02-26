@@ -46,7 +46,12 @@ public class CustomAdapter extends RecyclerView.Adapter<CustomViewHolder> {
         holder.text_title.setText(headlines.get(position).getTitle());
         // get name of the source
         holder.text_source.setText(headlines.get(position).getSource().getName());
+//        for (int i = 1; i < headlines.size(); i++) {
+//            System.out.println(headlines.get(i).getSource().getName());
+//        }
         // show image of the news article (ImageView)
+
+
 
         if (headlines.get(position).getUrlToImage() != null) {
             // There is an image URL inside the string
@@ -55,9 +60,7 @@ public class CustomAdapter extends RecyclerView.Adapter<CustomViewHolder> {
         } else { Toast.makeText(context, "Placeholder image", Toast.LENGTH_SHORT).show(); }
 
         // create onClickListener for the cardView
-        holder.cardView.setOnClickListener(v -> {
-            listener.OnNewsClicked(headlines.get(position));
-        });
+        holder.cardView.setOnClickListener(v -> listener.OnNewsClicked(headlines.get(position)));
 
     }
 

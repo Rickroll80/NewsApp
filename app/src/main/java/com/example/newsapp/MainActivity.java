@@ -31,9 +31,6 @@ public class MainActivity extends AppCompatActivity implements SelectListener {
 
         RequestManager manager = new RequestManager(this);
         manager.getNewsHeadlines(listener, "general", null);
-
-
-
     }
 
     // create listener
@@ -68,7 +65,5 @@ public class MainActivity extends AppCompatActivity implements SelectListener {
         // create new activity showing the details of the particular news article clicked
         startActivity(new Intent(MainActivity.this, DetailsActivity.class)
                 .putExtra("data", headlines)); // headlines gets passed to the new activity with the name "data"
-
-
     }
 }

@@ -6,20 +6,6 @@ import java.io.Serializable;
  * Serializable class that handles each article (set of results) in the article array
  */
 public class NewsHeadlines implements Serializable {
-
-    /*
-            "source": {
-                "id": "google-news",
-                "name": "Google News"
-            },
-            "author": "The Washington Post",
-            "title": "China considers sending Russia artillery shells, U.S. officials say - The Washington Post",
-            "description": null,
-            "url": "https://news.google.com/rss/articles/CBMiW2h0dHBzOi8vd3d3Lndhc2hpbmd0b25wb3N0LmNvbS9uYXRpb25hbC1zZWN1cml0eS8yMDIzLzAyLzI0L2NoaW5hLXJ1c3NpYS1hcnRpbGxlcnktdWtyYWluZS_SAQA?oc=5",
-            "urlToImage": null,
-            "publishedAt": "2023-02-25T00:16:00Z",
-            "content": null
-     */
     Source source = null;
     String author = "";
     String title = "";
