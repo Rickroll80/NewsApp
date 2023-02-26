@@ -6,7 +6,7 @@ import java.util.List;
 /**
  * This is a listener that handle responses from the main activity.
  */
-public interface OnFetchDataListener {
+public interface OnFetchDataListener<NewsApiResponse> {
     void onFetchData(List<NewsHeadlines> list, String message);
     void onError(String message);
 }

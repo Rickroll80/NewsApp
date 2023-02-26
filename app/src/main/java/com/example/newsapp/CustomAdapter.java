@@ -15,6 +15,7 @@ import java.util.List;
 
 /**
  * Class serves as a custom adapter for the news articles.
+ * The adapter holds a data set representing all the news articles.
  */
 public class CustomAdapter extends RecyclerView.Adapter<CustomViewHolder> {
     private Context context;
