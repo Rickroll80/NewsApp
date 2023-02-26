@@ -1,12 +1,6 @@
 package com.example.newsapp.Models;
 
 public class Source {
-    /*
-    "source": {
-                "id": "google-news",
-                "name": "Google News"
-            },
-     */
     String id = "";
     String name = "";
 
