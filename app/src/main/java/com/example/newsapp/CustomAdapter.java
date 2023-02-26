@@ -57,7 +57,7 @@ public class CustomAdapter extends RecyclerView.Adapter<CustomViewHolder> {
             // There is an image URL inside the string
             // Load the URL inside the ImageView using Picasso
             Picasso.get().load(headlines.get(position).getUrlToImage()).into(holder.img_headline);
-        } else { Toast.makeText(context, "Placeholder image", Toast.LENGTH_SHORT).show(); }
+        } // else { Toast.makeText(context, "Placeholder image", Toast.LENGTH_SHORT).show(); }
 
         // create onClickListener for the cardView
         holder.cardView.setOnClickListener(v -> listener.OnNewsClicked(headlines.get(position)));
