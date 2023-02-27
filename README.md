@@ -19,4 +19,4 @@ See:
 * News API – https://newsapi.org/
 * Retrofit – https://github.com/square/retrofit/tree/master/retrofit-converters/gson
 * Picasso – https://github.com/square/picasso
-
+* This app was designed based on the following tutorial: https://www.youtube.com/watch?v=Csx7ve8DF_U
