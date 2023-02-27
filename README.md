@@ -1,4 +1,4 @@
-# NewsApp
+# News App
 
 This is an Android application that requests and displays news article data from the News API. 
 In the main activity: 
