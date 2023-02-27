@@ -14,6 +14,6 @@ Picasso was used to load images by URL.
 ![NEWSAPP](https://user-images.githubusercontent.com/57027672/221445062-6588ae65-0c83-45a0-8b1e-8c006a1c767e.gif)
 
 See: 
-News API – https://newsapi.org/
-Retrofit – https://github.com/square/retrofit/tree/master/retrofit-converters/gson
-Picasso – https://github.com/square/picasso
+* News API – https://newsapi.org/
+* Retrofit – https://github.com/square/retrofit/tree/master/retrofit-converters/gson
+* Picasso – https://github.com/square/picasso
